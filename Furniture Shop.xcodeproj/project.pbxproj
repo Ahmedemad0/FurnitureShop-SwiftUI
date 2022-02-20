@@ -11,6 +11,9 @@
 		E287083227BEFD6300C2A1A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287083127BEFD6300C2A1A7 /* ContentView.swift */; };
 		E287083427BEFD6500C2A1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E287083327BEFD6500C2A1A7 /* Assets.xcassets */; };
 		E287083727BEFD6500C2A1A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E287083627BEFD6500C2A1A7 /* Preview Assets.xcassets */; };
+		E287084327BF20B900C2A1A7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287084227BF20B900C2A1A7 /* HomeScreen.swift */; };
+		E2C3D42E27C0612E006043CA /* CustomCornerRaduis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3D42D27C0612D006043CA /* CustomCornerRaduis.swift */; };
+		E2C3D43227C067BD006043CA /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3D43127C067BD006043CA /* DetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,12 @@
 		E287083127BEFD6300C2A1A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E287083327BEFD6500C2A1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E287083627BEFD6500C2A1A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E287083E27BEFE8600C2A1A7 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.ttf"; path = "Furniture Shop/Fonts/PlayfairDisplay-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		E287083F27BEFE8600C2A1A7 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Bold.ttf"; path = "Furniture Shop/Fonts/PlayfairDisplay-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		E287084127BF05B900C2A1A7 /* Furniture-Shop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Furniture-Shop-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E287084227BF20B900C2A1A7 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E2C3D42D27C0612D006043CA /* CustomCornerRaduis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerRaduis.swift; sourceTree = "<group>"; };
+		E2C3D43127C067BD006043CA /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,10 @@
 		E287082E27BEFD6300C2A1A7 /* Furniture Shop */ = {
 			isa = PBXGroup;
 			children = (
+				E2C3D42C27C06117006043CA /* Utilites */,
+				E287084127BF05B900C2A1A7 /* Furniture-Shop-Info.plist */,
+				E287084027BEFECF00C2A1A7 /* Screens */,
+				E287083D27BEFE6F00C2A1A7 /* Fonts */,
 				E287082F27BEFD6300C2A1A7 /* Furniture_ShopApp.swift */,
 				E287083127BEFD6300C2A1A7 /* ContentView.swift */,
 				E287083327BEFD6500C2A1A7 /* Assets.xcassets */,
@@ -65,6 +78,32 @@
 				E287083627BEFD6500C2A1A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E287083D27BEFE6F00C2A1A7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E287083F27BEFE8600C2A1A7 /* PlayfairDisplay-Bold.ttf */,
+				E287083E27BEFE8600C2A1A7 /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E287084027BEFECF00C2A1A7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E287084227BF20B900C2A1A7 /* HomeScreen.swift */,
+				E2C3D43127C067BD006043CA /* DetailsScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E2C3D42C27C06117006043CA /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3D42D27C0612D006043CA /* CustomCornerRaduis.swift */,
+			);
+			path = Utilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +178,9 @@
 			files = (
 				E287083227BEFD6300C2A1A7 /* ContentView.swift in Sources */,
 				E287083027BEFD6300C2A1A7 /* Furniture_ShopApp.swift in Sources */,
+				E2C3D43227C067BD006043CA /* DetailsScreen.swift in Sources */,
+				E287084327BF20B900C2A1A7 /* HomeScreen.swift in Sources */,
+				E2C3D42E27C0612E006043CA /* CustomCornerRaduis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +314,7 @@
 				DEVELOPMENT_TEAM = X65JBYCV33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Furniture-Shop-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +345,7 @@
 				DEVELOPMENT_TEAM = X65JBYCV33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Furniture-Shop-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
